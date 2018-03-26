@@ -15,7 +15,7 @@ class Home extends Component {
                         <Row>
                             {
                                 data.products.map(item => (
-                                    <Col xs={12} md={4}>
+                                    <Col xs={12} md={4} key={item.id}>
                                         <Thumbnail src={'/images/products/' + item.id + '.jpg'} href={'/Products' + item.id} >
                                             {item.name} {item.price}
                                         </Thumbnail>

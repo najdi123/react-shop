@@ -8,7 +8,7 @@ export default  () =>
 <Navbar>
     <Navbar.Header>
         <Navbar.Brand>
-            <a href="#home">React-Shop</a>
+            <a href="/home">React-Shop</a>
         </Navbar.Brand>
     </Navbar.Header>
     <Nav>
